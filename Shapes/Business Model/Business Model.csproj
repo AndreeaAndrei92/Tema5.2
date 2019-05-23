@@ -50,6 +50,7 @@
     <Compile Include="IProducer.cs" />
     <Compile Include="IStore.cs" />
     <Compile Include="IVehicle.cs" />
+    <Compile Include="Operation.cs" />
     <Compile Include="Order.cs" />
     <Compile Include="Producer.cs" />
     <Compile Include="Program.cs" />

@@ -12,5 +12,13 @@ namespace Business_Model
         public IStore Store { get; set; }
         public IPerson Customer { get; set; }
         public IVehicle Vehicle { get; set; }
+
+
+        public Order(IPerson customer, IVehicle vehicle, IStore store)
+        {
+            Customer = customer;
+            Vehicle = vehicle;
+            Store = store;
+        }
     }
 }

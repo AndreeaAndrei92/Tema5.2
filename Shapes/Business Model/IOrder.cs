@@ -12,5 +12,7 @@ namespace Business_Model
         IPerson Customer { get; set; }
         IVehicle Vehicle { get; set; }
         IStore Store { get; set; }
+
+        void Cancel();
     }
 }

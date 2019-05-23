@@ -10,6 +10,9 @@ namespace Business_Model
     {
         string Name { get; set; }
         List<IOrder> Orders { get; set; }
+
+        void PlaceOrder(IStore store, IVehicle vehicle);
+        void CancelOrder(IStore store, IOrder order);
     }
 }
 

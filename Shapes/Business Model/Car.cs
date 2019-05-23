@@ -8,6 +8,7 @@ namespace Business_Model
 {
     public class Car : Producer, IVehicle
     {
+            
         public string Model { get; set; }
         public int Year { get; set; }
         public float Price { get; set; }

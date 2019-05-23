@@ -11,6 +11,8 @@ namespace Business_Model
         string Name { get; set; }
         List<IOrder> Orders { get; set; }
         List<IVehicle> Cars { get; set; }
+        void PlaceOrder(IVehicle vehicle, IPerson person);
+        void CancelOrder(IOrder order, IPerson person);
     }
 }
 
